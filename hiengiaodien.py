@@ -4,6 +4,7 @@ Created on Thu Oct 23 18:32:59 2025
 
 @author: ThanhHa
 """
+hello
 
 import sys
 from PyQt6 import QtWidgets
@@ -104,4 +105,5 @@ if __name__=="__main__":
     app=QApplication(sys.argv)
     window=MainWindow()
     window.show()
+
     app.exec()
